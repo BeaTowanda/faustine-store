@@ -98,8 +98,8 @@ margin: 3rem 2rem 0rem 3rem;
     border-radius: 5px;
 }
 #saleLogo{
-    width: 2.5rem;
-    height: 2.5rem;
+    width: 3.3rem;
+    height: 3.3rem;
 }
 
 /*********/
@@ -196,5 +196,10 @@ footer{
 @media (min-width:500px){
     .faustine h3{
         font-size: 5rem;
+    }
+}
+@media (max-width:400px){
+    .imgs i , .imgs img{         
+        padding:0.5rem 0.1rem 0.5rem 0.1rem;
     }
 }

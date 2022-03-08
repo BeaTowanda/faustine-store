@@ -12,6 +12,9 @@ const controller = {
     carrito: (req,res) => {
         res.render("carritoDeCompras")
     },
+    finCarrito: (req,res) => {
+        res.render("finCarrito")
+    },
     altaProducto: (req,res) => {
         res.render("altaProducto")
     },
